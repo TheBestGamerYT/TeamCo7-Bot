@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('pong');
+    	message.reply('pong! I am still under Development! So please wait for further progress of my Developers. Join Gaming Discord: https://discord.gg/67gbBKH');
   	}
 });
 
