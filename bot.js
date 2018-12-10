@@ -1,11 +1,15 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('ready', () => {
-    console.log('I am ready!');
+client.on('ready',() => {
+  console.log("I\'m Online !");
+  client.user.setActivity('!help discord.gg/67gbBKH, { type: 'PLAYING' })
+    .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : '!help discord.gg/67gbBKH'}`))
+    .catch(console.error);
+
 });
 
-var prefix = "!"
+
 
 client.on('message', message => {
     if (message.content === 'ping') {
