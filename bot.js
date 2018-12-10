@@ -6,8 +6,12 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
+    if (message.content === '!ping') {
     	message.reply('pong');
+        
+        client.on('message', message => {
+    if (message.content === '!teamco7bot') {
+    	message.reply('I am still under Development');
   	}
 });
 
