@@ -1,21 +1,23 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const config = require('./config.json');
+
+var prefix = "b!"
 
 client.on('ready',() => {
   console.log("I\'m Online !");
-  client.user.setActivity('!help discord.gg/67gbBKH, { type: 'PLAYING' })
-    .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : '!help discord.gg/67gbBKH'}`))
+  client.user.setActivity('b! is prefix', { type: 'PLAYING' })
+    .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'b! is prefix'}`))
     .catch(console.error);
-
-});
-
-
+})
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong! This bot still under development by TeamCo7 Developments (restricted server)! Join public gaming Discord server: https://discord.gg/67gbBKH');
+  if (message.author === client.user) return;
+  	if (message.content.startsWith(prefix + 'ping')) {
+  		message.channel.send('pong');
   	}
-});
-
-//
-client.login(process.env.BOT_TOKEN);
+    if (message.content.startsWith(prefix + 'help')) {
+  		message.channel.send('Welcome to a help page ! \n b! ping - pong \n b! help - help page');
+  	}
+  });
+client.login(config.token);
