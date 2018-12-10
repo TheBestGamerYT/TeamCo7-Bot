@@ -10,7 +10,7 @@ client.on('message', message => {
     	message.reply('pong');
         
 client.on('message', message => {
-    if (message.content === '!teamco7bot') {
+    if (message.content === 'teamco7bot') {
     	message.reply('I am still under Development! :D');
   	}
 });
