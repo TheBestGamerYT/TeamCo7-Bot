@@ -1,2 +1,2 @@
 # TeamCo7-Bot
-Discord Bot for TeamCo7
+Discord Bot by TeamCo7 Developments
