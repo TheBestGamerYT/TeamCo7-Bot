@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+var prefix = "! "
 
 client.on('ready',() => {
   console.log("I\'m Online !");
@@ -8,9 +9,8 @@ client.on('ready',() => {
     .catch(console.error);
 })
 
-var prefix = "!"
-
 client.on('message', message => {
+
   if (message.author === client.user) return;
   	if (message.content.startsWith(prefix + 'ping')) {
   		message.channel.send('pong');
@@ -20,4 +20,12 @@ client.on('message', message => {
   	}
 });
 // My version changed and hopefully now works delete this comment when you changed the code and your are not TheBestGamerYT
+
+    if (message.content === 'ping') {
+    	message.reply('pong');
+  	}
+});
+
+// 
+
 client.login(process.env.BOT_TOKEN);
