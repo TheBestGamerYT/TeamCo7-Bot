@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('pong');
+    	message.reply('ping! Bot is under maintenance update by TeamCo7 Developements, Dept. of FinalSquad Company - Please be patiënt');
   	}
 });
 
