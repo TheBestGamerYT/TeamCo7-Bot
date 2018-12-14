@@ -5,10 +5,10 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-var prefix = "!"
+var prefix = "! "
 
 client.on('message', message => {
-    if (message.content === 'ping') {
+    if (message.content.startsWith(prefix + 'ping')) {
     	message.reply('pong! This bot still under development by TeamCo7 Developments (restricted server)! Join public gaming Discord server: https://discord.gg/67gbBKH');
   	}
 });
