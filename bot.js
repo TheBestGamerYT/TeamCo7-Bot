@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!ping') {
-    	message.reply('pong! Sorry, I am currently still under developmemt by FinalSquad Company, under the authority of Parent Organization: TeamCo7 Gaming Clan!');
+    	message.reply('pong! Sorry, I am currently still under development by FinalSquad Company, under the authority of Parent Organization: TeamCo7 Gaming Clan!');
   	}
 });
 
