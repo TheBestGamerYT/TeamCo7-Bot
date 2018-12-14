@@ -1,13 +1,14 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+var prefix = "! "
 
 client.on('ready', () => {
     console.log('I am ready!');
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('ping! Bot is under maintenance update by TeamCo7 Developements, Dept. of FinalSquad Company - Please be patiënt');
+    if (message.content(prefix + 'ping')) {
+    	message.reply('pong');
   	}
 });
 
