@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content(prefix + 'ping')) {
-    	message.reply('pong');
+    	message.reply('pong! Bot is globally under maintenance and is being updated and recoded. Under the authority of FinalSquad Company, Dept. of TeamCo7 Organization & Developments. We advise bot users to please be patiënt');
   	}
 });
 
