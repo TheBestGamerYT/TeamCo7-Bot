@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!help') {
-    	message.reply('Sorry, this unindependent bot is currently still under development by FinalSquad Company, under the authority of Parent Organization: TeamCo7 Gaming Clan! Contact FinalSquad it's Staff, Admins, Developers, CEO or Board of Directors for more inormation regarding our developmens! You can also apply!');
+    	message.reply('Sorry, this unindependent bot is currently still under development by FinalSquad Company, under the authority of Parent Organization: TeamCo7 Gaming Clan! Contact FinalSquad: Staff, Admins, Developers, CEO or Board of Directors for more information regarding our developments! You can also apply! https://discord.gg/5wwCBEA');
  	}
 });
 
