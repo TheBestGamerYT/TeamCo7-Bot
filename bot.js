@@ -6,13 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!ping') {
-    	message.reply('pong! Sorry, I am currently still under development by FinalSquad Company, under the authority of Parent Organization: TeamCo7 Gaming Clan!');
-    }
-client.on('message', message => {
     if (message.content === '!help') {
-        message.reply('Sorry, contact FinalSquad Company! Further information can be found at the CEO or Board of Directors!');
-        
+    	message.reply('Sorry, this unindependent bot is currently still under development by FinalSquad Company, under the authority of Parent Organization: TeamCo7 Gaming Clan! Contact FinalSquad Staff, Admins, Developers, CEO or Board of Directors for more i formation concerning our developmens! You can also apply!');
  	}
 });
 
