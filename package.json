@@ -1,13 +1,19 @@
 {
-  "name": "Test",
-  "description": "Test",
-  "version": "0.0.0",
+  "name": "teamco7-bot-update",
+  "version": "2.0.0",
+  "description": "An update of discord.js and many more",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "MarkF",
+  "license": "ISC",
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
+    "bufferutil": "^4.0.0",
+    "discord.js": "^11.4.2",
+    "erlpack": "^0.1.2",
+    "node-opus": "^0.3.1",
+    "opusscript": "0.0.6",
+    "uws": "^99.0.0"
   }
 }
