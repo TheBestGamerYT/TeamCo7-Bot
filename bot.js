@@ -3,8 +3,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    console.log('I am ready!');
-client.user.setActivity('! is prefix', { type: 'PLAYING' }) .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : '! is prefix'}`)) .catch(console.error);
+    console.log('I am ready!');
+     client.user.setActivity('! is prefix', { type: 'PLAYING' }) .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : '! is prefix'}`)) .catch(console.error);
 });
 
 client.on('message', message => {
