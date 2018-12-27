@@ -5,8 +5,8 @@ var prefix = "!c7 "
 
 client.on('ready',() => {
   console.log("I\'m Online !");
-  client.user.setActivity('!c7 is prefix', { type: 'PLAYING' })
-    .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : '!c7 is prefix'}`))
+  client.user.setActivity('!c7 help', { type: 'PLAYING' })
+    .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : '!c7 help'}`))
     .catch(console.error);
 })
 
