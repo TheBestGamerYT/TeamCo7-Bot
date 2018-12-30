@@ -17,7 +17,7 @@ client.on('message', message => {
   		message.channel.send('pong');
   	}
     if (message.content.startsWith(prefix + 'help')) {
-  		message.channel.send('Bot usage: \n !c7 ping - pong \n !c7 help - help message \n This bot still in BETA version by TeamCo7 Developments!  \n Join gaming DiscordApp: https://discord.gg/67gbBKH');
+  		message.channel.send('Bot usage: \n !c7 ping - pong \n !c7 help - help message \n This bot is still in BETA version by TeamCo7 Clan!  \n Join gaming DiscordApp server: https://discord.gg/67gbBKH /n If our host gets DDoS hacked, then please stay calm and wait for response from TeamCo7 Clan');
   	}
 });
 //  TeamCo7 bot has been changed(updated) and hopefully now works delete this comment when you changed the code and your are not TheBestGamerYT also tell TheBestGamerYT here or on discord what you changed(in case you changed something) for keeping track on developement nothing else :)
