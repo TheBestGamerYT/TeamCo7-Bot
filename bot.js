@@ -17,7 +17,7 @@ client.on('message', message => {
   		message.channel.send('pong');
   	}
     if (message.content.startsWith(prefix + 'help')) {
-  		message.channel.send('Welcome to a help page ! \n !c7 ping - pong \n !c7 help - help page \n This bot still under development by TeamCo7 Developments (restricted server)!  \n Join public gaming Discord server: https://discord.gg/67gbBKH');
+  		message.channel.send('Bot usage: \n !c7 ping - pong \n !c7 help - help message \n This bot still in BETA version by TeamCo7 Developments!  \n Join gaming DiscordApp: https://discord.gg/67gbBKH');
   	}
 });
 //  TeamCo7 bot has been changed(updated) and hopefully now works delete this comment when you changed the code and your are not TheBestGamerYT also tell TheBestGamerYT here or on discord what you changed(in case you changed something) for keeping track on developement nothing else :)
