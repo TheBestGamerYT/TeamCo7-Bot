@@ -17,7 +17,7 @@ client.on('message', message => {
   		message.channel.send('pong');
   	}
     if (message.content.startsWith(prefix + 'help')) {
-  		message.channel.send('Bot usage: \n !c7 ping - pong \n !c7 help - help message \n This bot is still in BETA version by TeamCo7 Clan!  \n Join gaming DiscordApp server: https://discord.gg/67gbBKH  /n If our host gets DDoS hacked, then please stay calm and wait for response from TeamCo7 Clan');
+  		message.channel.send('Bot usage: \n !c7 ping - pong \n !c7 help - help message \n This bot is still in BETA version by TeamCo7 Clan!  \n Join gaming DiscordApp server: https://discord.gg/67gbBKH  \n If our host gets DDoS hacked, then please stay calm and wait for response from TeamCo7 Clan');
   	}
 });
 //  
