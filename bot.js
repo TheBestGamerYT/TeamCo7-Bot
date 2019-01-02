@@ -13,11 +13,11 @@ client.on('ready',() => {
 client.on('message', message => {
 
   if (message.author === client.user) return;
-  	if (message.content.startsWith(prefix + 'ping')) {
-  		message.channel.send('pong! I can\'t know the ping. I am still in BETA version \n Developers still have to complete this discord.js code');
+  	if (message.content.startsWith(prefix + 'help')) {
+  		message.channel.send('Bot help: \n ```!c7 help > This meesage \n !c7 servers > Displays TeamCo7 Clan servers ```\n Note: This bot is still in BETA version! \n In case of DDoS hack, wait for response from TeamCo7 Clan!');
   	}
-    if (message.content.startsWith(prefix + 'help')) {
-  		message.channel.send('Bot Help Message: \n !c7 ping - pong \n !c7 help - help message \n This bot is still in BETA version by TeamCo7 Clan!  \n If our host gets DDoS hacked, then please stay calm and wait for response from TeamCo7 Clan \n Discord server: https://discord.gg/67gbBKH');
+    if (message.content.startsWith(prefix + 'servers')) {
+  		message.channel.send('⚠️ This command still has to be set up!');
   	}
 });
 //  
