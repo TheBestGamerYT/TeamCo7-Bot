@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
 new Discord.RichEmbed(data); 
 
 var prefix = "!c7 "
