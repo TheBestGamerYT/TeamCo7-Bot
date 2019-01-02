@@ -19,7 +19,7 @@ client.on('message', message => {
   		message.channel.send('⚠️ This command still has to be set up!');
   	}
     if (message.content.startsWith(prefix + 'about')) {
-    message.channel.send({embed: { "plainText": "", "title": "About TeamCo7 Clan Bot", "description": "Hi! I\'m a bot that\'s serving: \n • TeamCo7 Clan members /n • Allied clans or communities", "color": 53380 }});
+    message.channel.send({embed: { "plainText": "", "title": "About TeamCo7 Clan Bot", "description": "Hi! I\'m a bot that\'s serving: \n • TeamCo7 Clan members \n • Allied clans or communities", "color": 53380 }});
     }
 
 });
