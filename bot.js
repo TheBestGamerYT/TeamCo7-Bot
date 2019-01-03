@@ -5,7 +5,7 @@ var prefix = "!c7 "
 
 client.on('ready',() => {
   console.log("I\'m Online! Ready to launch!");
-  client.user.setActivity('!c7 help | discord.me/teamco7', { type: 'PLAYING' })
+  client.user.setActivity('!c7 help | discord.gg/67gbBKH', { type: 'PLAYING' })
     .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : '!c7 help | discord.gg/67gbBKH'}`))
     .catch(console.error);
 })
