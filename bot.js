@@ -3,11 +3,10 @@ const client = new Discord.Client();
 
 var prefix = "!c7 "
 
-client.on('ready',() => {
-  console.log("I\'m Online! Ready to launch!");
-  client.user.setActivity('!c7 help | discord.gg/67gbBKH', { type: 'PLAYING' })
-    .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : '!c7 help | discord.gg/67gbBKH'}`))
-    .catch(console.error);
+console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
+  client.user.setActivity(`!c7 help | ${client.guilds.size} servers`, { type: 'PLAYING' })
+  .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : `!c7 help | ${client.guilds.size} servers`}`))
+  .catch(console.error);
 })
 
 client.on('message', message => {
