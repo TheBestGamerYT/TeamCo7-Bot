@@ -9,6 +9,17 @@ client.on('ready', () => {
   client.user.setActivity(`!c7 help | ${client.guilds.size} servers`);
 });
 
+// GREET COMMANDS
+client.on('guildMemberAdd', member => {
+    let guild = member.guild;
+    guild.defaultChannel.sendMessage(`Everyone, welcome ${member} to the server!`);
+  });
+
+  client.on('guildMemberRemove', member => {
+    let guild = member.guild;
+    guild.defaultChannel.sendMessage(`${member} has left the server!`);
+  });
+
 client.on('message', message => {
   if (message.author === client.user) return;
   	if (message.content.startsWith(prefix + 'help')) {
