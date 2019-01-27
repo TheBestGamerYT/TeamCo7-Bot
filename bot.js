@@ -44,7 +44,7 @@ client.on('message', async msg => {
     },
     {
       "name": "» Information:",
-      "value": "help, servers",
+      "value": "help, servers, aboutbot",
       "inline": false
     }
   ]
@@ -56,7 +56,7 @@ client.on('message', async msg => {
   		msg.channel.send({embed: { "plainText": "", "title": "Servers", "description": "Group: \n • TeamCo7 Clan \n Invite: https://discord.gg/TW9yC4V \n • AkelliBot Lounge \n Invite: https://discord.gg/j39xBQa \n \n Partnered Communities: \n • GoodBoy00's Lounge \n Invite: https://discord.gg/8yyfzYY \n • PrinceRaj 592 \n Invite: https://discord.gg/rGu7F39 \n • TheBestGamerYT: \n Invite: https://discord.gg/urSjkJx", "color": 53380 }});
   	}
   
-    if (msg.content.startsWith(prefix + 'about')) {
+    if (msg.content.startsWith(prefix + 'aboutbot')) {
     msg.channel.send({embed: { "plainText": "", "title": "About TeamCo7 Clan Bot", "description": "Hi! I\'m a bot that\'s serving: \n • TeamCo7 Clan members \n • Allied clans or communities", "color": 53380 }});
     }
 
