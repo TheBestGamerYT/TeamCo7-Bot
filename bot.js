@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-var prefix = "!c7 "
+var prefix = "!c7"
 
 client.on('ready', () => {
   console.log('I am ready!');
