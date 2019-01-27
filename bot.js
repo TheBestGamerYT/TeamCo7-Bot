@@ -21,7 +21,7 @@ client.on('message', async msg => {
   	if (message.content.startsWith(prefix + 'help')) {
   	msg.channel.send({embed: {
   "plainText": "Help Command",
-  "title": "Commands: (usage: !c7<command>)",
+  "title": "Commands: (usage: c7!<command>)",
   "color": 53380,
   "footer": {
     "text": "© Copyright @teamco7clan",
