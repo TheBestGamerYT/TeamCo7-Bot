@@ -23,7 +23,7 @@ client.on('message', message => {
     "text": "© Copyright @teamco7clan",
     "icon_url": "https://cdn.discordapp.com/avatars/481540507479048203/6aaed6c31705efac5eb4906a9605ac14.png?size=2048"
   },
-  "thumbnail": "https://cdn.discordapp.com/attachments/406594866974294028/538730123739004948/20190120_111646.jpg",
+  "thumbnail": "",
   "fields": [
     {
       "name": "» Administration Moderation:",
