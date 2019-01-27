@@ -15,7 +15,7 @@ client.on('message', message => {
 
   // HELP COMMAND (EMBED MESSAGE: https://embedbuilder.nadekobot.me/)
   	if (message.content.startsWith(prefix + 'help')) {
-  		message.channel.send({embed: {
+  		msg.channel.send({embed: {
   "plainText": "Help Command",
   "title": "Commands: (usage: !c7<command>)",
   "color": 53380,
