@@ -20,7 +20,7 @@ client.on('message', async msg => {
       	msg.channel.send({embed: {
   "plainText": "Help Command",
   "title": "Commands: (usage: c7!<command>)",
-  "color": 53380,
+  "color": 3447003,
   "footer": {
     "text": "© Copyright @teamco7clan",
     "icon_url": "https://cdn.discordapp.com/avatars/481540507479048203/6aaed6c31705efac5eb4906a9605ac14.png?size=2048"
@@ -55,9 +55,6 @@ client.on('message', async msg => {
     if (message.content.startsWith(prefix + 'servers')) {
   		message.channel.send({embed: { "plainText": "", "title": "Servers", "description": "Clan: \n • TeamCo7 Clan \n Invite: https://discord.gg/TW9yC4V \n • FS|C7 Bot Lounge \n Invite: https://discord.gg/j39xBQa \n \n Partnered Communities: \n • GoodBoy00's Lounge \n Invite: https://discord.gg/8yyfzYY \n • PrinceRaj 592 \n Invite: https://discord.gg/rGu7F39 \n • TheBestGamerYT: \n Invite: https://discord.gg/urSjkJx", "color": 53380 }});
   	}
-    if (message.content.startsWith(prefix + 'about')) {
-    message.channel.send({embed: { "plainText": "", "title": "About TeamCo7 Clan Bot", "description": "Hi! I\'m a bot that\'s serving: \n • TeamCo7 Clan members \n • Allied clans or communities", "color": 53380 }});
-    }
-
+   
 });
 client.login(process.env.BOT_TOKEN);
