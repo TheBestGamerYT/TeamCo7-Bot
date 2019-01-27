@@ -1,12 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-var prefix = "!c7"
+var prefix = "c7!"
 
 client.on('ready', () => {
   console.log('I am ready!');
   console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
-  client.user.setActivity(`!c7 help | ${client.guilds.size} servers`);
+  client.user.setActivity(`c7!help | ${client.guilds.size} servers`);
 });
 
 
