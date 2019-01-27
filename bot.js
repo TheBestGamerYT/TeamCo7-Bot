@@ -47,7 +47,7 @@ client.on('message', message => {
     }
   ]
 }
-});
+  });
 }
 
   	}
