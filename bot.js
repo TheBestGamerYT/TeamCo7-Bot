@@ -15,8 +15,6 @@ client.on('message', async msg => {
 
     if(msg.author.bot) return; //This here means that if message was sent from the other bots EXEPT Akelli, our bot (Akelli) won't sent anything in the chat (thats why return there is e.g return, returns you to somewhere or something) this prevents bot-ception (when multiple bots were to use the same prefix).
 
-     if(msg.content.indexOf(prefix) !== 0) return;
-
   // HELP COMMAND (EMBED MESSAGE: https://embedbuilder.nadekobot.me/)
   	if (message.content.startsWith(prefix + 'help')) {
   	msg.channel.send({embed: {
