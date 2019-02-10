@@ -34,7 +34,7 @@ var prefix = "!"
 client.on('ready', () => {
   console.log('I am ready!');
   console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
-  client.user.setActivity(`c7!help | ${client.guilds.size} servers`);
+  client.user.setActivity(`!help | ${client.guilds.size} servers`);
 });
 
 //// HELP COMMAND (EMBED MESSAGE: https://embedbuilder.nadekobot.me/)
